@@ -1,0 +1,125 @@
+[
+{
+  "pk": 1, 
+  "model": "sampleapp2.category", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "name": "\u30ab\u30c6\u30b4\u30ea1", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-08-25T10:14:49.733", 
+    "upd_pgm_id": "", 
+    "upd_user_id": "", 
+    "cre_dt": "2014-08-25T10:14:47.525"
+  }
+},
+{
+  "pk": 2, 
+  "model": "sampleapp2.category", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "name": "\u30ab\u30c6\u30b4\u30ea2", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-08-25T10:14:56.569", 
+    "upd_pgm_id": "", 
+    "upd_user_id": "", 
+    "cre_dt": "2014-08-25T10:14:56.569"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sampleapp2.category", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "name": "\u30ab\u30c6\u30b4\u30ea3", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-08-25T10:15:04.467", 
+    "upd_pgm_id": "", 
+    "upd_user_id": "", 
+    "cre_dt": "2014-08-25T10:15:04.467"
+  }
+},
+{
+  "pk": 4, 
+  "model": "sampleapp2.category", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "name": "\u30ab\u30c6\u30b4\u30ea4", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-08-25T10:15:10.699", 
+    "upd_pgm_id": "", 
+    "upd_user_id": "", 
+    "cre_dt": "2014-08-25T10:15:10.699"
+  }
+},
+{
+  "pk": 1, 
+  "model": "sampleapp2.entry", 
+  "fields": {
+    "body": "\u30a8\u30f3\u30c8\u30ea1\u672c\u6587", 
+    "cre_pgm_id": "django.contrib.admin.options.add_view", 
+    "title": "\u30a8\u30f3\u30c8\u30ea1", 
+    "cre_user_id": "admin", 
+    "upd_dt": "2014-10-29T18:23:12.079", 
+    "upd_pgm_id": "django.contrib.admin.options.change_view", 
+    "upd_user_id": "admin", 
+    "cre_dt": "2014-10-29T17:24:58.736", 
+    "date": "2014-10-29"
+  }
+},
+{
+  "pk": 2, 
+  "model": "sampleapp2.entry", 
+  "fields": {
+    "body": "\u30a8\u30f3\u30c8\u30ea2\u672c\u6587", 
+    "cre_pgm_id": "django.contrib.admin.options.add_view", 
+    "title": "\u30a8\u30f3\u30c8\u30ea2", 
+    "cre_user_id": "admin", 
+    "upd_dt": "2014-10-29T18:23:30.593", 
+    "upd_pgm_id": "django.contrib.admin.options.add_view", 
+    "upd_user_id": "admin", 
+    "cre_dt": "2014-10-29T18:23:30.593", 
+    "date": "2014-10-30"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sampleapp2.entry", 
+  "fields": {
+    "body": "\u30a8\u30f3\u30c8\u30ea3\u672c\u6587", 
+    "cre_pgm_id": "django.contrib.admin.options.add_view", 
+    "title": "\u30a8\u30f3\u30c8\u30ea3", 
+    "cre_user_id": "admin", 
+    "upd_dt": "2014-10-29T18:23:50.859", 
+    "upd_pgm_id": "django.contrib.admin.options.add_view", 
+    "upd_user_id": "admin", 
+    "cre_dt": "2014-10-29T18:23:50.859", 
+    "date": "2014-10-30"
+  }
+},
+{
+  "pk": "\u30bf\u30b01", 
+  "model": "sampleapp2.tag", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-11-05T11:09:49.147", 
+    "upd_pgm_id": "sampleapp2.views.TagViewSet (UpdateView)", 
+    "upd_user_id": "ryoka", 
+    "cre_dt": "2014-11-05T10:32:18.100", 
+    "memo": "\u30bf\u30b01\u306e\u5099\u8003\u3067\u3059\u3002"
+  }
+},
+{
+  "pk": "\u30bf\u30b02", 
+  "model": "sampleapp2.tag", 
+  "fields": {
+    "cre_pgm_id": "", 
+    "cre_user_id": "", 
+    "upd_dt": "2014-11-05T11:10:17.758", 
+    "upd_pgm_id": "sampleapp2.views.TagViewSet (CreateAndDuplicateView)", 
+    "upd_user_id": "ryoka", 
+    "cre_dt": "2014-11-05T11:10:17.699", 
+    "memo": "\u30bf\u30b02\u306e\u5099\u8003\u3067\u3059\u3002"
+  }
+}
+]

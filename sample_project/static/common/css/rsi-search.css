@@ -1,0 +1,25 @@
+/* 検索フォーム */
+.search-form {
+  background: #ede7e7;
+  width: 100%;
+  padding: 3px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.search-form-row {
+  padding: 3px 0;
+}
+.search-form .help-text {
+  font-size: 10px;
+}
+
+p.sidebar-filter-title {
+  margin: 5px;
+  padding: 0;
+  border-bottom: 2px solid #CCC;
+}
+ul.sidebar-filter {
+  list-style-type: none;
+  padding: 0 0 0 10px;
+
+}

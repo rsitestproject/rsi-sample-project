@@ -1,0 +1,25 @@
+{% extends "base/main.html" %}
+{% load role %}
+
+{% block title %}テンプレートフィルタで権限をチェック{% endblock %}
+
+{% block page_title %}テンプレートフィルタで権限をチェック{% endblock %}
+
+{% block content %}
+<div class="col-md-12">
+  {% if request|has_permission:"kengen01" %}
+  <div class="panel panel-default">
+    <div class="panel-body">
+      権限「kengen01」が必要な表示
+    </div>
+  </div>
+  {% endif %}
+  {% if request|has_permission:"kengen02" %}
+  <div class="panel panel-default">
+    <div class="panel-body">
+      権限「kengen02」が必要な表示
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "common/list/list.html" %}
+
+{% block body %}
+<table class="table">
+ <tr>
+   <th>displayName</th>
+   <th>UPN</th>
+ </tr>
+{% for user in users %}
+<tr>
+  <td>{{ user.displayName }}</td>
+  <td>{{ user.userPrincipalName }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,97 @@
+/* common.css
+ *
+ * common内で提供するコンポーネント群の調整用css
+ */
+
+/* jquery.datepickerのz-index調整 */
+div.ui-datepicker {
+  z-index: 100 !important;
+}
+
+/* Grid.jsによる行列固定テーブルのスタイル */
+
+/* テーブルを囲むボックス */
+.grid-table {
+  padding: 5px;
+}
+
+/* メニューボタン列の幅 */
+.grid-table .menu-column {
+  width: 40px;
+}
+/* チェックボックス列の幅 */
+.grid-table .check-column {
+  width: 20px;
+}
+
+/* ヘッダとソートボタン */
+
+.grid-header a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.ordering {
+  padding-left: 20px;
+  font-size: 80%;
+}
+
+/* テーブル枠 */
+.g_Base {
+  border: 1px solid #DDD;
+  border-width: 1px 1px 0 0;
+  overflow: auto;
+}
+
+
+/* テーブル列のoverflow
+ * ドロップダウンメニューを正しく表示するために必要
+ */
+.g_Cl {
+  overflow: visible;
+}
+
+/* テーブル高さ調整
+ */
+.grid-table .g_BodyStatic {
+  padding: 28px 0 90px 0;
+}
+/* テーブル高さ調整
+ */
+.grid-table .g_BodyFixed {
+  padding: 0 0 90px 0;
+}
+.grid-table .g_HeadStatic {
+  line-height: 26px;
+}
+
+/* テーブルの各セルのデフォルトスタイル */
+.g_C {
+  width: inherit;
+  padding: 3px 5px;
+  height: 28px;
+  border: 1px solid #DDD;
+  border-width: 0 0 1px 1px;
+  overflow: visible;
+}
+
+.g_HR {
+  background-color: #5680F6;
+  color: #FFF !important;
+  vertical-align: middle;
+  line-height: 26px;
+  border-width: 0 0 2px 1px;
+}
+
+/* テーブル行のストライプ  */
+
+/* css3であればnth-childを使った指定でもOK
+ * .g_Cl>div:nth-child(even), */
+.stripe-even {
+  background-color: #e6f7f3;
+}
+
+/* インライン編集 */
+.empty-form {
+  display: none;
+}
