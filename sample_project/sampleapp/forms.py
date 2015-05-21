@@ -24,7 +24,6 @@ class SearchForm(forms.Form):
         required=False, choices=CATEGORY_CHOICES,
         widget=widgets.RadioSelect(inline=True), label=u"区分")
     enabled = forms.BooleanField(required=False, label=u"有効のみ表示")
-    # TODO:製造場所
 
 
 class ItemForm(forms_models.ModelForm):
