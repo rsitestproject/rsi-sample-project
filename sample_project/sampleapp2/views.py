@@ -24,7 +24,7 @@ class DocumentFileInlineEdit(InlineEdit):
     label = _('Document file')
     model = models.DocumentFile
     override_params = {
-        'extra': 2,
+        'extra': 3,
     }
 
 
