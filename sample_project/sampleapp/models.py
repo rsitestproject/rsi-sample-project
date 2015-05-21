@@ -13,6 +13,7 @@ STATUS_CHOICES = (
     (2, 'Success'),
     (3, 'Warning'),
     (4, 'Approved'),
+    (5, '------'),
 )
 
 CATEGORY_CHOICES = (
