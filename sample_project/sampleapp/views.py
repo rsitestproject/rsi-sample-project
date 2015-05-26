@@ -47,7 +47,7 @@ class List(ListView):
     """ページャ付
     """
     model = models.Item
-    paginate_by = 10
+    paginate_by = 3
     list_display = LIST_DISPLAY
     list_sortable = LIST_SORTABLE
     show_number = True
@@ -56,6 +56,9 @@ class List(ListView):
         ('name', types.TEXT_WILDCARD),
         ('factory', types.FK_SELECT_MULTIPLE),
         ('status', types.SELECT_DROPDOWN),
+        ('category', types.SELECT_RADIO),
+        ('date', types.DATERANGE),
+        ('enabled', types.CHECKBOX),
     )
 
     show_button_download_csv = True
@@ -70,8 +73,10 @@ class ListDownload(download.DownloadMixin, List):
         'date',
         'get_status_display',
         'get_category_display',
-        'enabled',
-        'value',
+        'get_enabled_display',
+        'get_value_display',
+        'factory',
+        'memo',
     ]
 
 
